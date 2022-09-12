@@ -212,8 +212,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
               display: "flex",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
-              backgroundImage:
-                "url(" + "https://wallpaperaccess.com/full/424833.jpg" + ")",
+               "url(" + "https://images.pexels.com/photos/6491643/pexels-photo-6491643.jpeg?cs=srgb&dl=pexels-hani-hakkam-6491643.jpg&fm=jpg" + ")",
             }}
           >
             {loading ? (
