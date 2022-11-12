@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://chatstackapp.herokuapp.com/ "; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = https://lazy-pear-sea-lion-tam.cyclic.app/ "; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
@@ -61,7 +61,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       setLoading(true);
 
       const { data } = await axios.get(
-        `https://chatstackapp.herokuapp.com/api/message/${selectedChat._id}`,
+        `https://lazy-pear-sea-lion-tam.cyclic.app/api/message/${selectedChat._id}`,
         config
       );
       setMessages(data);
@@ -92,7 +92,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
         };
         setNewMessage("");
         const { data } = await axios.post(
-          "https://chatstackapp.herokuapp.com/api/message",
+          "https://lazy-pear-sea-lion-tam.cyclic.app/api/message",
           {
             content: newMessage,
             chatId: selectedChat,
