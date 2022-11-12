@@ -25,7 +25,7 @@ const MyChats = ({ fetchAgain }) => {
         },
       };
 
-      const { data } = await axios.get("https://chatstackapp.herokuapp.com/api/chat", config);
+      const { data } = await axios.get("https://lazy-pear-sea-lion-tam.cyclic.app/api/chat", config);
       setChats(data);
     } catch (error) {
       toast({
