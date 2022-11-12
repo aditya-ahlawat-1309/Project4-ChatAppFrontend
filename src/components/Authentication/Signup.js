@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "https://chatstackapp.herokuapp.com/api/user",
+        "https://lazy-pear-sea-lion-tam.cyclic.app/api/user",
         {
           name,
           email,
