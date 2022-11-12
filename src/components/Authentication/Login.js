@@ -40,7 +40,7 @@ const Login = () => {
       };
 
       const { data } = await axios.post(
-        "https://chatstackapp.herokuapp.com/api/user/login",
+        "https://lazy-pear-sea-lion-tam.cyclic.app/api/user/login",
         { email, password },
         config
       );
