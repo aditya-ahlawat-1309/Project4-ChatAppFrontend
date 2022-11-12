@@ -19,7 +19,7 @@ function Homepage() {
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("userInfo"));
 
-    if (user) history.push("https://chatstackapp.herokuapp.com/api/chats");
+    if (user) history.push("https://lazy-pear-sea-lion-tam.cyclic.app/api/chats");
   }, [history]);
 
   return (
